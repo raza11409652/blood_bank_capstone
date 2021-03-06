@@ -23,7 +23,7 @@ const Navbar =()=>{
     return(
         <nav className="navbar">
           <div className="container-fluid">
-            <span className="navbar-brand mb-0 h1">Blood Bank</span>
+            <span className="navbar-brand mb-0 h1">Blood Donor Live</span>
             <div className="">
                <ul className="navbar-nav ml-auto">
                  <li className="navbar-item">
