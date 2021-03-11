@@ -1,4 +1,4 @@
-const SERVER  = "http://localhost:8090/"
+const SERVER  = "http://13.232.56.153:8090/"
 const AUTH = SERVER +"auth/"
 const BANK = SERVER+"bank/"
 const server={
