@@ -103,17 +103,17 @@ router.get('/list', async (req, res) => {
     //     return res.json({er})
     // })
     const userList = await user.find()
-    // for(let i=0;i<userList.length ;i++){
-    //     const element = userList[i]
-    //     // console.log(element)
-    //     const userId = element._id
-    //     // console.log(userId)
-    //     user.findByIdAndDelete(userId).then(data=>{
-    //         console.log(data)
-    //     }).catch(er=>{
-    //         console.log(er)
-    //     })
-    // }
+    // // for(let i=0;i<userList.length ;i++){
+    // //     const element = userList[i]
+    // //     // console.log(element)
+    // //     const userId = element._id
+    // //     // console.log(userId)
+    // //     user.findByIdAndDelete(userId).then(data=>{
+    // //         console.log(data)
+    // //     }).catch(er=>{
+    // //         console.log(er)
+    // //     })
+    // // }
 
     return res.json({userList})
 
